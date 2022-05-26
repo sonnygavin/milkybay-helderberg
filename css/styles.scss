@@ -1,0 +1,113 @@
+// Color palette
+$primary-colour: #EF4A81;
+$secondary-colour: #f2a1c2;
+$blue-colour: #55C5E9;
+$headings-colour: chocolate;
+// Remove default browser styling
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Navigation bar
+.navbar-nav li {
+    font-family: 'Roboto', sans-serif;
+}
+
+// Navigation bar and brand section
+#brand-section {
+    background-color: $primary-colour;
+    color: white;
+}
+
+.brand-img {
+    width: 100%;
+}
+
+.melting-img {
+    width: 100%;
+    max-height: 25%;
+}
+
+// Carousel section
+.carousel-section {
+    background-color: $secondary-colour;
+    text-align: center;
+    color: white;
+}
+
+.milkbay-poster {
+    width: 75%;
+}
+
+// Customer section
+.customer-section {
+    text-align: center;
+}
+
+// Mailing List Section
+.mailing-list-section {
+    background-color: $primary-colour;
+    color: white;
+}
+
+.mail-header {
+    color: white;
+}
+
+.newsletter {
+    padding: 80px 0;
+    background-color: $blue-colour;
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.newsletter .content h2 {
+    color: #243c4f;
+    margin-bottom: 40px;
+}
+
+.newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius: 0;
+}
+
+.newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+}
+
+.newsletter .content .btn {
+    min-height: 50px;
+    border-radius: 0;
+    background: #243c4f;
+    color: #fff;
+    font-weight: 600;
+}
+
+// Google Maps Location
+.maps-location {
+    text-align: center;
+}
+
+// Footer section
+.footer {
+    background-color: $primary-colour;
+    text-align: center;
+    color: white;
+}
+
+// Main elements 
+h1 {}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
