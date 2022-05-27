@@ -12,15 +12,22 @@
 #brand-section {
   background-color: #EF4A81;
   color: white;
+  position: relative;
+}
+
+.brand-content {
+  padding: 50px 10px 5px;
 }
 
 .brand-img {
-  width: 100%;
+  width: 25%;
+  position: absolute;
+  top: 0;
 }
 
 .melting-img {
   width: 100%;
-  max-height: 25%;
+  height: 100%;
 }
 
 .carousel-section {
@@ -31,10 +38,37 @@
 
 .milkbay-poster {
   width: 75%;
+  text-align: center;
 }
 
 .customer-section {
   text-align: center;
+}
+
+.customer-details {
+  text-align: left;
+}
+
+.feature-icon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 0.75rem;
+}
+
+.bg-gradient {
+  background-image: var(--bs-gradient) !important;
 }
 
 .mailing-list-section {
@@ -94,7 +128,19 @@
   color: white;
 }
 
+.footer-text {
+  text-align: left;
+}
+
+.social-icons {
+  text-align: left;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+  font-size: 17px;
 }
 /*# sourceMappingURL=styles.css.map */
