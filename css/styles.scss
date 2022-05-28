@@ -10,6 +10,19 @@ $headings-colour: chocolate;
     box-sizing: border-box;
 }
 
+// Menu section
+.pink-txt {
+    color: $primary-colour;
+}
+
+.blue-txt {
+    color: $blue-colour;
+}
+
+.choco-txt {
+    color: $headings-colour;
+}
+
 // Navigation bar
 .navbar-nav li {
     font-family: 'Roboto', sans-serif;
@@ -26,10 +39,10 @@ $headings-colour: chocolate;
     padding: 50px 10px 5px;
 }
 
+.brand-text {}
+
 .brand-img {
-    width: 25%;
-    position: absolute;
-    top: 0;
+    width: 75%;
 }
 
 .melting-img {
@@ -42,6 +55,7 @@ $headings-colour: chocolate;
     background-color: $secondary-colour;
     text-align: center;
     color: white;
+    padding: 45px 25px 45px;
 }
 
 .milkbay-poster {
@@ -52,6 +66,7 @@ $headings-colour: chocolate;
 // Customer section
 .customer-section {
     text-align: center;
+    padding: 45px 25px 0;
 }
 
 .customer-details {
@@ -131,6 +146,7 @@ $headings-colour: chocolate;
     background-color: $primary-colour;
     text-align: center;
     color: white;
+    padding: 0 75px 0;
 }
 
 .footer-text {
@@ -142,10 +158,14 @@ $headings-colour: chocolate;
 }
 
 // Main elements 
-h1 {}
+h1 {
+    font-family: 'Fresh Lychee', sans-serif;
+    font-size: 70px;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .nav-link {
