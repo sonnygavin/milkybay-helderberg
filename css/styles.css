@@ -151,7 +151,17 @@
 
 h1 {
   font-family: 'Fresh Lychee', sans-serif;
-  font-size: 70px;
+  font-size: 85px;
+}
+
+h2 {
+  font-family: 'Fresh Lychee', sans-serif;
+  font-size: 55px;
+}
+
+h3 {
+  font-family: 'Fresh Lychee', sans-serif;
+  font-size: 55px;
 }
 
 body {
@@ -161,5 +171,34 @@ body {
 
 .nav-link {
   font-size: 17px;
+}
+
+nav-link {
+  font-size: 17px;
+}
+
+.milkybay-title {
+  font-size: 17px;
+  font-family: 'Fresh Lychee', sans-serif;
+  font-size: 75px;
+  padding: 0 30px;
+}
+
+.milkybay-text {
+  font-size: 25px;
+  padding: 15px 65px 0;
+}
+
+.milkshakes-title {
+  color: #EF4A81;
+  font-size: 65px;
+}
+
+.milkshakes-txt {
+  color: #55C5E9;
+}
+
+.kids-milkshakes {
+  background-color: #55C5E9;
 }
 /*# sourceMappingURL=styles.css.map */
