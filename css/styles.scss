@@ -141,6 +141,11 @@ $headings-colour: chocolate;
     text-align: center;
 }
 
+.google-maps {
+    width: 100%;
+    height: 450px;
+}
+
 // Footer section
 .footer {
     background-color: $primary-colour;
@@ -174,7 +179,8 @@ h3 {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -182,8 +188,13 @@ body {
     font-size: 17px;
 }
 
-nav-link {
-    font-size: 17px;
+hr {
+    border: none;
+    border-top: 1px dotted #f00;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 50%;
 }
 
 // Menu page 
@@ -219,9 +230,16 @@ nav-link {
 
 .kids-milkshakes {
     background-color: $blue-colour;
+    padding: 35px 0;
+    color: white;
+}
+
+.kiddies-cream {
+    padding: 35px 35px;
 }
 
 .coffee-section {
     background-color: $headings-colour;
     color: white;
+    padding: 35px 0;
 }
