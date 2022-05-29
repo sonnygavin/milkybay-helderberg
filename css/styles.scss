@@ -188,11 +188,19 @@ nav-link {
 
 // Menu page 
 // CSS Styling
+.milkshakes-section {
+    background-color: $secondary-colour;
+}
+
 .milkybay-title {
     font-size: 17px;
     font-family: 'Fresh Lychee', sans-serif;
     font-size: 75px;
     padding: 0 30px;
+}
+
+.milkybay-poster {
+    margin: 300px 30px;
 }
 
 .milkybay-text {
@@ -211,4 +219,9 @@ nav-link {
 
 .kids-milkshakes {
     background-color: $blue-colour;
+}
+
+.coffee-section {
+    background-color: $headings-colour;
+    color: white;
 }
