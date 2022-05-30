@@ -14,7 +14,7 @@
 }
 
 .choco-txt {
-  color: chocolate;
+  color: #44261d;
 }
 
 .navbar-nav li {
@@ -40,11 +40,15 @@
   height: 100%;
 }
 
-.carousel-section {
+.monthly-specials-section {
   background-color: #f2a1c2;
   text-align: center;
   color: white;
   padding: 45px 25px 45px;
+}
+
+.specials-header {
+  color: #44261d;
 }
 
 .milkbay-poster {

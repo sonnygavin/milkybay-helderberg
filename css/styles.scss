@@ -20,7 +20,7 @@ $headings-colour: chocolate;
 }
 
 .choco-txt {
-    color: $headings-colour;
+    color: #44261d;
 }
 
 // Navigation bar
@@ -51,11 +51,15 @@ $headings-colour: chocolate;
 }
 
 // Carousel section
-.carousel-section {
+.monthly-specials-section {
     background-color: $secondary-colour;
     text-align: center;
     color: white;
     padding: 45px 25px 45px;
+}
+
+.specials-header {
+    color: #44261d;
 }
 
 .milkbay-poster {
