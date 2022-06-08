@@ -3,6 +3,30 @@ $primary-colour: #EF4A81;
 $secondary-colour: #f2a1c2;
 $blue-colour: #55C5E9;
 $headings-colour: chocolate;
+// Navigation bar with carousel
+html,
+body {
+    height: 65vh;
+}
+
+.carousel,
+.item,
+.active {
+    height: 65vh;
+}
+
+.carousel {
+    top: 0;
+}
+
+.carousel-inner {
+    height: 65vh;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
 // Remove default browser styling
 * {
     margin: 0;
