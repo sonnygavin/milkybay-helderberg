@@ -3,13 +3,7 @@ $primary-colour: #EF4A81;
 $secondary-colour: #f2a1c2;
 $blue-colour: #55C5E9;
 $headings-colour: chocolate;
-p {
-    font-family: 'fresh_lycheeregular', Arial, sans-serif;
-}
-
-.trial {
-    color: red;
-}
+.melting-layer {}
 
 h1 {
     font-family: 'fresh_lycheeregular', Arial, sans-serif;
@@ -19,7 +13,10 @@ h2 {
     font-family: 'fresh_lycheeregular', Arial, sans-serif;
 }
 
-h3 {
+h3,
+h4,
+h5,
+h6 {
     font-family: 'fresh_lycheeregular', Arial, sans-serif;
 }
 
