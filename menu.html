@@ -1,241 +1,493 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <!-- Fresh Lychee Font CDN -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/styles.scss">
+
+    <!-- Fresh Lychee CDN -->
     <link href="http://fonts.cdnfonts.com/css/fresh-lychee" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Fresh Lychee web font -->
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
 
-    <!-- External CSS import -->
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!-- Font Awesome -->
+    <!-- Font awesome  -->
     <script src="https://kit.fontawesome.com/ffdc991cf1.js" crossorigin="anonymous"></script>
 
-    <!-- Favicon import -->
-    <link rel="Milkybay Site Icon" href="favicon.ico" type="image/x-icon">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Website name -->
     <title>Ice Cream, Desserts & Milkshakes | Milkybay Helderberg</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 
-<body>
-    <section id="brand-section">
-        <!-- <div class="top-image">
-            <img src="images/top-colours.png" alt="">
-        </div> -->
+<!-- Website content  -->
 
+<body id="home" class="scrollspy">
+    <!-- Top navigation bar section -->
+    <section id="top-navigation-bar">
+        <div class="navbar-fixed">
+            <nav class="pink">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="index.html" class="brand-logo">
+                            <img src="images/milkybay-logo.png">
+                        </a>
+                        <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li class="">
+                                <a href="menu.html">MENU</a>
+                            </li>
+                            <li>
+                                <a href="#search">OUR STORY</a>
+                            </li>
+                            <li>
+                                <a href="#popular-places">GALLERY</a>
+                            </li>
+                            <li>
+                                <a href="#popular-places">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Sidenav menu contents -->
+        <ul class="sidenav" id="mobile-nav">
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+            <li>
+                <a href="#search">Our Story</a>
+            </li>
+            <li>
+                <a href="#popular-places">Gallery</a>
+            </li>
+            <li>
+                <a href="#popular-places">Contact Us</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Main carousel / slider -->
+    <section>
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="images/menu-01.jpg">
+                    <!-- Slider image 1 -->
+                    <div class="caption center-align">
+                        <h2>Milkybay Helderberg</h2>
+                        <h5 class="light grey-text text-lighten-3">Dessert Shop in Strand<br>Open today until 19:00</h5>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-phone left"></i>CALL US NOW</a>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/menu-02.jpg">
+                    <!-- Slider image 2 -->
+                    <div class="caption left-align">
+                        <h2>Milkybay Helderberg</h2>
+                        <h5 class="light grey-text text-lighten-3">Dessert Shop in Strand<br>Open today until 19:00</h5>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-phone left"></i>CALL US NOW</a>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/menu-03.jpg">
+                    <!-- Slider image 3 -->
+                    <div class="caption left-align">
+                        <h2>Milkybay Helderberg</h2>
+                        <h5 class="light grey-text text-lighten-3">Dessert Shop in Strand<br>Open today until 19:00</h5>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-phone left"></i>CALL US NOW</a>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/menu-04.jpg">
+                    <!-- Slider image 4 -->
+                    <div class="caption center-align">
+                        <h2>Milkybay Helderberg</h2>
+                        <h5 class="light grey-text text-lighten-3">Dessert Shop in Strand<br>Open today until 19:00</h5>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-phone left"></i>CALL US NOW</a>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/menu-05.jpg">
+                    <!-- Slider image 5 -->
+                    <div class="caption center-align">
+                        <h2>Milkybay Helderberg</h2>
+                        <h5 class="light grey-text text-lighten-3">Dessert Shop in Strand<br>Open today until 19:00</h5>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-phone left"></i>CALL US NOW</a>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/menu-06.jpg">
+                    <!-- Slider image 6 -->
+                    <div class="caption center-align">
+                        <h2>Milkybay Helderberg</h2>
+                        <h5 class="light grey-text text-lighten-3">Dessert Shop in Strand<br>Open today until 19:00</h5>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-phone left"></i>CALL US NOW</a>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/menu-07.jpg">
+                    <!-- Slider image 6 -->
+                    <div class="caption center-align">
+                        <h2>Milkybay Helderberg</h2>
+                        <h5 class="light grey-text text-lighten-3">Dessert Shop in Strand<br>Open today until 19:00</h5>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-phone left"></i>CALL US NOW</a>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/menu-08.jpg">
+                    <!-- Slider image 6 -->
+                    <div class="caption center-align">
+                        <h2>Milkybay Helderberg</h2>
+                        <h5 class="light grey-text text-lighten-3">Dessert Shop in Strand<br>Open today until 19:00</h5>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-phone left"></i>CALL US NOW</a>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/menu-09.jpg">
+                    <!-- Slider image 6 -->
+                    <div class="caption center-align">
+                        <h2>Milkybay Helderberg</h2>
+                        <h5 class="light grey-text text-lighten-3">Dessert Shop in Strand<br>Open today until 19:00</h5>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-phone left"></i>CALL US NOW</a>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/menu-10.jpg">
+                    <!-- Slider image 6 -->
+                    <div class="caption center-align">
+                        <h2>Milkybay Helderberg</h2>
+                        <h5 class="light grey-text text-lighten-3">Dessert Shop in Strand<br>Open today until 19:00</h5>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-phone left"></i>CALL US NOW</a>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/menu-11.jpg">
+                    <!-- Slider image 6 -->
+                    <div class="caption center-align">
+                        <h2>Milkybay Helderberg</h2>
+                        <h5 class="light grey-text text-lighten-3">Dessert Shop in Strand<br>Open today until 19:00</h5>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-phone left"></i>CALL US NOW</a>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/menu-12.jpg">
+                    <!-- Slider image 6 -->
+                    <div class="caption center-align">
+                        <h2>Milkybay Helderberg</h2>
+                        <h5 class="light grey-text text-lighten-3">Dessert Shop in Strand<br>Open today until 19:00</h5>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-phone left"></i>CALL US NOW</a>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/menu-13.jpg">
+                    <!-- Slider image 6 -->
+                    <div class="caption center-align">
+                        <h2>Milkybay Helderberg</h2>
+                        <h5 class="light grey-text text-lighten-3">Dessert Shop in Strand<br>Open today until 19:00</h5>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-phone left"></i>CALL US NOW</a>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/menu-14.jpg">
+                    <!-- Slider image 6 -->
+                    <div class="caption center-align">
+                        <h2>Milkybay Helderberg</h2>
+                        <h5 class="light grey-text text-lighten-3">Dessert Shop in Strand<br>Open today until 19:00</h5>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-phone left"></i>CALL US NOW</a>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/menu-15.jpg">
+                    <!-- Slider image 6 -->
+                    <div class="caption center-align">
+                        <h2>Milkybay Helderberg</h2>
+                        <h5 class="light grey-text text-lighten-3">Dessert Shop in Strand<br>Open today until 19:00</h5>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-phone left"></i>CALL US NOW</a>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Search section -->
+    <section id="search" class="section section-search pink lighten-1 darken-5 white-text center scrollspy">
         <div class="container">
-            <div class="nav-bar">
-                <nav class="navbar navbar-expand-lg navbar-dark">
-                    <div class="container-fluid">
-                        <a href="index.html"><img src="images/milkybay-logo.png" alt="Milkbay Logo"></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ms-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="menu.html">◦ MENU ◦</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="our-story.html">◦ OUR STORY ◦</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="gallery.html">◦ GALLERY ◦</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="contact-us.html">◦ CONTACT US ◦</a>
-                                </li>
-                            </ul>
+            <div class="row">
+                <div class="col s12 m12">
+                    <h2 class="">Our Menu</h2>
+                    <p>"We offer over 50 different flavours of premium double thick milkshakes, made from soft serve and imported syrups, sauces and purees."</p>
+                    <a class="waves-effect waves-light btn">MILKSHAKES</a>
+                    <a class="blue lighten-2 waves-effect waves-light btn">COFFEE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Melting img section  -->
+    <section>
+        <div class="col s6">
+            <img src="images/milkybay_melt4.png" alt="">
+        </div>
+    </section>
+
+    <!-- Icon box section  -->
+    <section class="section section-icons center">
+        <div class="container">
+            <div class="row">
+                <h4 class="pink-text"><b>Milkshakes</b></h4>
+                <div class="row">
+                    <div class="col s12 m12 l4">
+                        <h5 class="pink-text lighten-1"><b>Standard Shakes</b></h5>
+                        <p class="blue-text lighten-2"><b>R38</b><br>Banana<br>Bubblegum<br>Chocolate<br>Lime<br>Strawberry<br>Vanilla</p>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <h5 class="pink-text lighten-1"><b>Fruity Shakes</b></h5>
+                        <p class="blue-text lighten-2"><b>R40</b><br>Blueberry<br>Granadilla<br>Granadilla Lolly<br>Litchi<br>Mango<br>Pineapple<br>Redberries</p>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <h5 class="pink-text lighten-1"><b>Dessert Shakes</b></h5>
+                        <p class="blue-text lighten-2">Cheesecake<br>Cheesecake Blueberry<br>Cheesecake Mango<br>Cheesecake Passion Fruit<br>Cheesecake Redberries<br>Cheesecake Strawberry<br>Lemon Meringue<br>Milktart<br>Pineapple Tart<br>Strawberries Cream<br>Strawberries Dark Choc<br>Strawberries
+                            White Choc</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12 l4">
+                        <h5 class="pink-text lighten-1"><b>Chocolate Shakes</b></h5>
+                        <p class="blue-text lighten-2"><b>R42</b><br>Bar One<br>Bounty<br>Chocolate Chilli<br>Chocolate Eclair<br>Chocolate Hazelnut<br>Chocolate Log<br>Chocolate Mint<br>Milkybar<br>Milo<br>Top Deck<br>Turkish Delight</p>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <h5 class="pink-text lighten-1"><b>Caramel Shakes</b></h5>
+                        <p class="blue-text lighten-2"><b>R40</b><br>Caramel<br><b>R42</b><br>Caramel Macadamia<br>Caramel Mint<br>Caramel Popcorn<br>Salted Caramel</p>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <h5 class="pink-text lighten-1"><b>Unique Shakes</b></h5>
+                        <p class="blue-text lighten-2"><b>R42</b><br>Amaretto Dark Choc<br>Butterscotch<br>Candyfloss<br>Coconut Ice<br>Crème Brulee<br>Fireball HOT<br>Fireball Medium<br>Pina Colada<br>Popcorn<br>Roasted Hazelnut<br>Toasted Marshmallow<br>Toffee Nut</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12 l4">
+                        <h5 class="pink-text lighten-1"><b>Peanut Butter Shakes</b></h5>
+                        <p class="blue-text lighten-2"><b>R42</b><br>Peanut Butter Banana<br>Peanut Butter Caramel<br>Peanut Butter Dark Choc<br>Peanut Butter White Choc</p>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <h5 class="pink-text lighten-1"><b>Cookie Shakes</b></h5>
+                        <p class="blue-text lighten-2"><b>R40</b><br>Oreo<br><b>R43</b><br>Oreo Caramel<br>Oreo Dark Choc<br>Oreo Peanut Butter<br>Oreo Strawberry<br>Oreo White Choc</p>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <h5 class="pink-text lighten-1"><b>Coffee Shakes</b></h5>
+                        <p class="blue-text lighten-2"><b>R40</b><br>Coffee<br><b>R43</b><br>Coffee Caramel<br>Coffee Dark Choc<br>Coffee Hazel Choc<br>Coffee White Choc</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular places section  -->
+    <div id="popular-places" class="section section-popular scrollspy grey lighten-4">
+        <div class="container">
+            <div class="center">
+                <h3>Testimonials</h3>
+                <p>Look at what our happy customers have to say!</p>
+                <div class="section">
+
+                    <!--   Icon Section   -->
+                    <div class="row">
+                        <div class="col s12 m6 l4">
+                            <div class="">
+                                <p class="left-align">Delicious!! They use good icecream for their shakes. Nice and creamy! You can choose double thick or triple thick and the prices are reasonable. The menu is vast and I've only tried 2 flavours so far. I will definitely
+                                    be back for more!</p>
+                                <p class="left-align">Michelle R.<br>⭐⭐⭐⭐⭐<br>9 months ago</p>
+                            </div>
+                        </div>
+
+                        <div class="col s12 m6 l4">
+                            <div class="">
+                                <p class="left-align">The best milkshakes I've ever had. The coffee shake is to DIE for😍😍. I love the fact that they use soft serve for their milkshakes, that just brings that oomf to it. I had a lovely experience, great service and will definitely
+                                    be there again! Such a great place!</p>
+                                <p class="left-align">Odia T.<br>⭐⭐⭐⭐⭐<br>4 months ago</p>
+                            </div>
+                        </div>
+
+                        <div class="col s12 m6 l4">
+                            <div class="">
+                                <p class="left-align">Thank you for a great Experiences. Great Team. And Super Bubble Gum Milkshare. Great Stuff That was last weekend... This most now not become a weekly thing:-)</p>
+                                <p class="left-align">Pierre B.<br>⭐⭐⭐⭐⭐<br>2 months ago</p>
+                            </div>
                         </div>
                     </div>
-                </nav>
+
+                </div>
             </div>
         </div>
-        <div class="row">
-            <h1 class="milkybay-title">Our Menu</h1>
-            <p class="milkybay-text">"We offer over 50 different flavours of premium double thick milkshakes, made from soft serve and imported syrups, sauces and purees."</p>
-        </div>
-    </section>
+    </div>
 
-    <section class="melting-img">
-        <div class="bottom-nav-img">
-            <img class="melting-img" src="images/milkybay_melt4.png" alt="">
+    <!-- Mailing List Section  -->
+    <div id="mailing-list" class="section blue lighten-2 section-popular white-text center scrollspy">
+        <div class="container">
+            <div class="center">
+                <h3>Join Our Mailing List</h3>
+                <p>Receive updates from us about new products. Milkybay writes to customers every week.</p>
+                <div class="input-field">
+                    <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="Enter your email..">
+                    <a class="pink lighten-2 waves-effect waves-light btn">SUBSCRIBE NOW</a>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
 
-    <section id="milkshakes-section">
+    <!-- Icon box section  -->
+    <section class="section section-icons center grey lighten-4">
         <div class="container">
             <div class="row">
-                <h2 class="milkshakes-title">Milkshakes</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <h3 class="milkshakes-title">Standard Shakes</h3>
-                    <p class="milkshakes-txt"><b>R38</b><br>Banana<br>Bubblegum<br>Chocolate<br>Lime<br>Strawberry<br>Vanilla</p>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="milkshakes-title">Fruity Shakes</h3>
-                    <p class="milkshakes-txt"><b>R40</b><br>Blueberry<br>Granadilla<br>Granadilla Lolly<br>Litchi<br>Mango<br>Pineapple<br>Redberries</p>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="milkshakes-title">Dessert Shakes</h3>
-                    <p class="milkshakes-txt"><b>R43</b><br>Cheesecake<br>Cheesecake Blueberry<br>Cheesecake Mango<br>Cheesecake Passion Fruit<br>Cheesecake Red Berries<br>Cheesecake Strawberry<br>Lemon Meringue<br>Milktart<br>Pineapple Tart<br>Strawberries Cream<br>Strawberries
-                        Dark Choc
-                        <br>Strawberries White Choc</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <h3 class="milkshakes-title">Chocolate Shakes</h3>
-                    <p class="milkshakes-txt"><b>R42</b><br>Bar One<br>Bounty<br>Chocolate Chilli<br>Chocolate Eclair<br>Chocolate Hazelnut<br>Chocolate Log<br>Chocolate Mint<br>Milkybar<br>Milo<br>Top Deck<br>Turkish Delight</p>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="milkshakes-title">Caramel Shakes</h3>
-                    <p class="milkshakes-txt"><b>R40</b><br>Caramel<br><b>R42</b><br>Caramel Macadamia<br>Caramel Mint<br>Caramel Popcorn<br>Salted Caramel</p>
-                    <img src="images/1.png" alt="">
-                </div>
-                <div class="col-md-4">
-                    <h3 class="milkshakes-title">Unique Shakes</h3>
-                    <p class="milkshakes-txt"><b>R42</b><br>Amaretto Dark Choc<br>Butterscotch<br>Candyfloss<br>Coconut Ice<br>Crème Brulee<br>Fireball HOT<br>Fireball Medium<br>Pina Colada<br>Popcorn<br>Roasted Hazelnut<br>Toasted Marshmallow
-                        <br>Toffee nut</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <h3 class="milkshakes-title">Peanut Butter Shakes</h3>
-                    <p class="milkshakes-txt"><b>R42</b><br>Peanut Butter Banana<br>Peanut Butter Caramel<br>Peanut Butter Dark Choc<br>Peanut Butter White Choc</p>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="milkshakes-title">Cookie Shakes</h3>
-                    <p class="milkshakes-txt"><b>R40</b><br>Oreo<br><b>R43</b><br>Oreo Caramel<br>Oreo Dark Choc<br>Oreo Peanut Butter<br>Oreo Strawberry<br>Oreo White Choc</p>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="milkshakes-title">Coffee Shakes</h3>
-                    <p class="milkshakes-txt"><b>R40</b><br>Coffee<br><b>R43</b><br>Coffee Caramel<br>Coffee Dark Choc<br>Coffee hazel Choc<br>Coffee White Choc</p>
-                </div>
+                <iframe class="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1651.558101338846!2d18.82683943916788!3d-34.117774728971476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcdcb0cd447a0d9%3A0xd550b47acb64ac93!2sMilkybay%20Strand!5e0!3m2!1sen!2sza!4v1655646655533!5m2!1sen!2sza"
+                    style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>
 
-    <section class="kiddies-section">
-        <div class="row">
-            <div class="col-md-6 kids-milkshakes">
-                <h2>Kiddies</h2>
-                <h3 class="">Kids Milkshakes</h3>
-                <div class="row">
-                    <p class=""><b>Double Thick Milkshakes - R30</b></p>
-                    <div class="col">
-                        <p class="">Banana<br>Bubblegum<br>Chocolate</p>
-                    </div>
-                    <div class="col">
-                        <p class=""></p>Lime<br>Strawberry<br>Vanilla</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <p class=""><b>Themed Ice Creams - R40</b></p>
-                    <div class="col">
-                        <p class="">Barbie<br>Frozen<br>Unicorn<br>Minions</p>
-                    </div>
-                    <div class="col">
-                        <p class="">Cookie Monster<br>Ninja Turtle<br>Spiderman</p>
-                    </div>
-                </div>
-                <h3 class="">Kids Ice Creams</h3>
-                <div class="row">
-                    <p class="">Vanilla Kiddies Cone - <b>R20</b><br>Vanilla Kiddies Cup - <b>R22</b></p>
-                    <p class="">Extra Topping - <b>R8</b><br>Chocolate Sauce<br>Caramel Sauce<br>Bingos<br>Smarties<br>Sprinkles</p>
-                </div>
-            </div>
-            <div class="col-md-6 kiddies-cream">
-                <h2 class="choco-txt">Ice Cream</h2>
-                <h3 class="choco-txt">Vanilla Soft Serve Cones</h3>
-                <p class="">Vanilla Medium Cone - <b>R25</b><br>Vanilla Large Cone - <b>R35</b><br>Vanilla Sugar Cone - <b>R40</b><br>Extra Flake - <b>R10</b></p>
-                <h3 class="choco-txt">Vanilla Soft Serve Cups</h3>
-                <p class="">Vanilla Medium Cup - <b>R25</b><br>Vanilla Large Cup - <b>R35</b><br>Extra Flake - <b>R10</b></p>
-                <p class="">Extra Sauce - <b>R8</b><br>Caramel<br>Hazel Choc<br>Dark Choc<br>White Choc</p>
-                <p class="">Fruit Puree - <b>R12</b><br>Blueberry<br>Granadilla<br>Mango<br>Pineapple<br>Red Berries<br>Strawberry</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="coffee-section">
+    <!-- Footer section -->
+    <footer class="page-footer pink lighten-2">
         <div class="container">
             <div class="row">
-                <h3>Coffee</h3>
-                <div class="col">
-                    <p class=""><b>R28</b><br>Americano<br>Decaf Americano<br>Hot Chocolate</p>
-                    <p class=""><b>R30</b><br>Cappuccino<br>Choco Mocha<br>Chai Latte<br>Latte</p>
+                <div class="col s12 m12 l4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col m10 offset-m1 s12">
+                                <h5 class="center-align">Contact Us</h5>
+                                <div class="row">
+                                    <form class="col m8 offset-m2 s12">
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                                <input id="name" type="text">
+                                                <label for="name">Name</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                                <input id="email" type="email" class="form-input">
+                                                <label for="email">Email</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                                <textarea id="message" class="materialize-textarea"></textarea>
+                                                <label for="message">Message</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="divider"></div>
+                                        <div class="row">
+                                            <div class="col m12">
+                                                <p class="right-align"><button class="btn waves-effect waves-light" type="button" name="action">Send Message</button></p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col">
-                    <p class=""><b>R6</b><br>Syrup<br>Crème Brulee<br>Gingerbread<br>Roasted Hazelnut<br>Tiramisu<br>Walnut Brownie</p>
+                <div class="col s6 m6 l4">
+                    <h5 class="white-text">Follow Us</h5>
+                    <p class="grey-text text-lighten-4">Follow us on social media for special offers & discounts on all orders!</p>
+                    <div class="social-icons">
+                        <a href="" class="white-text">
+                            <i class="fa-brands fa-facebook-square fa-2x"></i>
+                        </a>
+                        <a href="" class="white-text">
+                            <i class="fa-brands fa-twitter-square fa-2x"></i>
+                        </a>
+                        <a href="" class="white-text">
+                            <i class="fa-brands fa-instagram-square fa-2x"></i>
+                        </a>
+                        <a href="" class="white-text">
+                            <i class="fa-brands fa-linkedin fa-2x"></i>
+                        </a>
+                        <a href="" class="white-text">
+                            <i class="fa-brands fa-tiktok fa-2x"></i>
+                        </a>
+                    </div>
+                    <h5 class="white-text">Address</h5>
+                    <p class="grey-text text-lighten-4">86 Beach Road,<br>Strand,<br>Cape Town, 7139<br>South Africa</p>
+                </div>
+                <div class="col s6 m6 l4">
+                    <h5 class="white-text">Opening Hours</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Mon: 11:00 am - 7:00 pm</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Tue: 11:00 am - 7:00 pm</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Wed: 11:00 am - 7:00 pm</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Thu: 11:00 am - 7:00 pm</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Fri: 11:00 am - 7:00 pm</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Sat: 11:00 am - 7:00 pm</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Sun: 11:00 am - 7:00 pm</a></li>
+                    </ul>
+                    <h5>Customer Care Line<br>+44 7913 217688</h5>
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="footer">
-        <footer class="row row-cols-12 py-5 text-md-center">
-            <div class="col col-md-4 col-sm-12">
-                <h5>ADDRESS:</h5>
-                <p class="footer-text">
-                    86 Beach Road,<br>Strand,<br>Cape Town, 7139<br>South Africa
-                </p>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2022 Milkybay Helderberg
+                <a class="grey-text text-lighten-4 right" href="#!">Terms & Conditions | Privacy Policy</a>
             </div>
+        </div>
+    </footer>
 
-            <div class="col col-md-4 col-sm-12">
-                <h5>OPENING HOURS:</h5>
-                <p class="footer-text">
-                    Mon: 11:00 am – 7:00 pm<br>Tue: 11:00 am – 7:00 pm<br>Wed: 11:00 am – 7:00 pm<br>Thu: 11:00 am – 7:00 pm<br>Fri: 11:00 am – 7:00 pm<br>Sat: 11:00 am – 7:00 pm<br>Sun: 11:00 am – 7:00 pm
-                </p>
-            </div>
-            <div class="col col-md-4 col-sm-12 mb-5">
-                <h5>FOLLOW US:</h5>
-                <p class="footer-text">
-                    Stay up to date on all that we've got going on through our social media channels!
-                </p>
-                <div class="social-icons">
-                    <i class="fa-brands fa-facebook-square fa-2x"></i>
-                    <i class="fa-brands fa-instagram fa-2x"></i>
-                    <i class="fa-brands fa-twitter-square fa-2x"></i>
-                    <i class="fa-brands fa-youtube fa-2x"></i>
-                </div>
-            </div>
-            <h4>CUSTOMER CARE LINE<br>+44 DESSERT (7913 217688)</h4>
-            <div class="text-dark">
-                <hr>
-            </div>
-            <p class="footer-links">Terms & Conditions | Privacy Policy | Cookie Policy</p>
-            <p class="copyright-text">© 2022 | Milkybay Strand | Designed by Sonny Gavin</p>
-        </footer>
-    </section>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <!-- jQuery Carousel initialization -->
     <script>
-        $('.carousel').carousel({
-            interval: 1000
+        // Initialize slider / carousel 
+        const slider = document.querySelector('.slider');
+        M.Slider.init(slider, {
+            indicators: false,
+            height: 500,
+            transition: 500,
+            interval: 6000,
         })
+
+        // Or with jQuery
+
+        $(document).ready(function() {
+            $('.carousel').carousel();
+        });
+
+        // Initialize sidenav
+        const sideNav = document.querySelector('.sidenav');
+        M.Sidenav.init(sideNav, {})
     </script>
-
-    <!-- External JS import -->
-    <script src="js/main.js"></script>
-
 </body>
+
+</html>
 
 </html>

@@ -11,14 +11,11 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="css/styles.scss">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-
-    <!-- Fresh Lychee Font CDN -->
+    <!-- Fresh Lychee CDN -->
     <link href="http://fonts.cdnfonts.com/css/fresh-lychee" rel="stylesheet">
+
+    <!-- Fresh Lychee web font -->
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
 
     <!-- Font awesome  -->
     <script src="https://kit.fontawesome.com/ffdc991cf1.js" crossorigin="anonymous"></script>
@@ -30,7 +27,11 @@
     <title>Ice Cream, Desserts & Milkshakes | Milkybay Helderberg</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <!-- Website content  -->
@@ -42,15 +43,15 @@
             <nav class="pink">
                 <div class="container">
                     <div class="nav-wrapper">
-                        <a href="#" class="brand-logo">
+                        <a href="index.html" class="brand-logo">
                             <img src="images/milkybay-logo.png">
                         </a>
                         <a href="#" class="sidenav-trigger" data-target="mobile-nav">
                             <i class="material-icons">menu</i>
                         </a>
                         <ul class="right hide-on-med-and-down">
-                            <li class="active">
-                                <a href="#home">MENU</a>
+                            <li class="">
+                                <a href="menu.html">MENU</a>
                             </li>
                             <li>
                                 <a href="#search">OUR STORY</a>
@@ -70,7 +71,7 @@
         <!-- Sidenav menu contents -->
         <ul class="sidenav" id="mobile-nav">
             <li>
-                <a href="#home">Menu</a>
+                <a href="menu.html">Menu</a>
             </li>
             <li>
                 <a href="#search">Our Story</a>
@@ -109,6 +110,16 @@
                     </div>
                 </li>
                 <li>
+                    <img src="images/milkybay-06.jpg">
+                    <!-- Slider image 6 -->
+                    <div class="caption center-align">
+                        <h2>Milkybay Helderberg</h2>
+                        <h5 class="light grey-text text-lighten-3">Dessert Shop in Strand<br>Open today until 19:00</h5>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-phone left"></i>CALL US NOW</a>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
+                    </div>
+                </li>
+                <li>
                     <img src="images/milkybay-03.jpg">
                     <!-- Slider image 3 -->
                     <div class="caption left-align">
@@ -128,6 +139,16 @@
                         <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
                     </div>
                 </li>
+                <li>
+                    <img src="images/milkybay-05.jpg">
+                    <!-- Slider image 5 -->
+                    <div class="caption center-align">
+                        <h2>Milkybay Helderberg</h2>
+                        <h5 class="light grey-text text-lighten-3">Dessert Shop in Strand<br>Open today until 19:00</h5>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-phone left"></i>CALL US NOW</a>
+                        <a class="pink waves-effect waves-light btn"><i class="fa-solid fa-envelope-circle-check left"></i>CONTACT US</a>
+                    </div>
+                </li>
             </ul>
         </div>
     </section>
@@ -137,7 +158,7 @@
         <div class="container">
             <div class="row">
                 <div class="col m6 s12">
-                    <h3>100% Chance of Milkshake Goodness</h3>
+                    <h3 class="trial">100% Chance of Milkshake Goodness</h3>
                     <p>A wide variety of premium milkshakes on offer for takeout. Our menu consists of more than 50 different milkshakes made from only the best ingredients.</p>
                     <a class="waves-effect waves-light btn">VIEW MENU</a>
                     <a class="blue lighten-2 waves-effect waves-light btn">VIEW MENU</a>
@@ -234,32 +255,40 @@
         <div class="container">
             <div class="row">
                 <div class="col s12 m12 l4">
-                    <div class="row">
-                        <form class="col s12">
-                            <div class="row">
-                                <h5 class="white-text">Send Us A Message</h5>
-                                <div class="input-field col s6">
-                                    <input placeholder="First Name" id="first_name" type="text" class="validate">
-                                    <label for="first_name">First Name</label>
-                                </div>
-                                <div class="input-field col s6">
-                                    <input id="last_name" type="text" placeholder="Last Name" class="validate">
-                                    <label for="last_name">Last Name</label>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col m10 offset-m1 s12">
+                                <h5 class="center-align">Contact Us</h5>
+                                <div class="row">
+                                    <form class="col m8 offset-m2 s12">
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                                <input id="name" type="text">
+                                                <label for="name">Name</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                                <input id="email" type="email" class="form-input">
+                                                <label for="email">Email</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                                <textarea id="message" class="materialize-textarea"></textarea>
+                                                <label for="message">Message</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="divider"></div>
+                                        <div class="row">
+                                            <div class="col m12">
+                                                <p class="right-align"><button class="btn waves-effect waves-light" type="button" name="action">Send Message</button></p>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="email" type="email" class="validate">
-                                    <label for="email">Email</label>
-                                </div>
-                            </div>
-                            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                                <i class="material-icons right">send</i>
-                              </button>
-                        </form>
+                        </div>
                     </div>
                 </div>
-                <div class="col s12 m12 l4">
+                <div class="col s6 m6 l4">
                     <h5 class="white-text">Follow Us</h5>
                     <p class="grey-text text-lighten-4">Follow us on social media for special offers & discounts on all orders!</p>
                     <div class="social-icons">
@@ -282,7 +311,7 @@
                     <h5 class="white-text">Address</h5>
                     <p class="grey-text text-lighten-4">86 Beach Road,<br>Strand,<br>Cape Town, 7139<br>South Africa</p>
                 </div>
-                <div class="col s12 m12 l4">
+                <div class="col s6 m6 l4">
                     <h5 class="white-text">Opening Hours</h5>
                     <ul>
                         <li><a class="grey-text text-lighten-3" href="#!">Mon: 11:00 am - 7:00 pm</a></li>

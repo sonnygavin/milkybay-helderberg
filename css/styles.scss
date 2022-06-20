@@ -3,3 +3,76 @@ $primary-colour: #EF4A81;
 $secondary-colour: #f2a1c2;
 $blue-colour: #55C5E9;
 $headings-colour: chocolate;
+p {
+    font-family: 'fresh_lycheeregular', Arial, sans-serif;
+}
+
+.trial {
+    color: red;
+}
+
+h1 {
+    font-family: 'fresh_lycheeregular', Arial, sans-serif;
+}
+
+h2 {
+    font-family: 'fresh_lycheeregular', Arial, sans-serif;
+}
+
+h3 {
+    font-family: 'fresh_lycheeregular', Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Fresh Lychee', sans-serif;
+}
+
+// h3 {
+//     font-family: 'Fresh Lychee', Arial, sans-serif;
+// }
+// This code below is for the contact form
+
+/* label color */
+
+.input-field label {
+    color: #444;
+}
+
+
+/* label focus color */
+
+.input-field input:focus+label,
+{
+    color: #444;
+}
+
+
+/* label underline focus color */
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #444;
+    box-shadow: 0 1px 0 0 #444;
+}
+
+
+/* valid color */
+
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #444;
+    box-shadow: 0 1px 0 0 #444;
+}
+
+
+/* invalid color */
+
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #444;
+    box-shadow: 0 1px 0 0 #444;
+}
+
+
+/* icon prefix focus color */
+
+.input-field .prefix.active {
+    color: #444;
+}
