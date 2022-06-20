@@ -1,11 +1,33 @@
-h1 {
-  font-family: 'fresh_lycheeregular', Arial, sans-serif;
+body {
+  font-family: 'Chivo', sans-serif;
 }
 
-h2 {
-  font-family: 'fresh_lycheeregular', Arial, sans-serif;
+p {
+  font-family: 'Chivo', sans-serif;
 }
 
+.bg-pink1 {
+  background-color: #EF4A81;
+}
+
+.bg-pink2 {
+  background-color: #f2a1c2;
+}
+
+.bg-blue {
+  background-color: hwb(195 33% 9%);
+}
+
+.bg-chocolate {
+  background-color: chocolate;
+}
+
+.melting-layer {
+  width: 100%;
+}
+
+h1,
+h2,
 h3,
 h4,
 h5,
@@ -13,7 +35,12 @@ h6 {
   font-family: 'fresh_lycheeregular', Arial, sans-serif;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Fresh Lychee', sans-serif;
 }
 

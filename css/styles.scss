@@ -1,18 +1,40 @@
 // Color palette
 $primary-colour: #EF4A81;
 $secondary-colour: #f2a1c2;
-$blue-colour: #55C5E9;
+$blue-colour: hwb(195 33% 9%);
 $headings-colour: chocolate;
-.melting-layer {}
-
-h1 {
-    font-family: 'fresh_lycheeregular', Arial, sans-serif;
+body {
+    font-family: 'Chivo', sans-serif;
 }
 
-h2 {
-    font-family: 'fresh_lycheeregular', Arial, sans-serif;
+p {
+    font-family: 'Chivo', sans-serif;
 }
 
+//Background colour classes
+.bg-pink1 {
+    background-color: $primary-colour;
+}
+
+.bg-pink2 {
+    background-color: $secondary-colour;
+}
+
+.bg-blue {
+    background-color: $blue-colour;
+}
+
+.bg-chocolate {
+    background-color: $headings-colour;
+}
+
+// Melting Layer
+.melting-layer {
+    width: 100%;
+}
+
+h1,
+h2,
 h3,
 h4,
 h5,
@@ -20,13 +42,15 @@ h6 {
     font-family: 'fresh_lycheeregular', Arial, sans-serif;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Fresh Lychee', sans-serif;
 }
 
-// h3 {
-//     font-family: 'Fresh Lychee', Arial, sans-serif;
-// }
 // This code below is for the contact form
 
 /* label color */
