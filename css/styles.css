@@ -26,6 +26,10 @@ p {
   background-color: chocolate;
 }
 
+.product-slider {
+  width: 100%;
+}
+
 .melting-layer {
   width: 100%;
 }
