@@ -11,6 +11,10 @@ p {
     font-family: 'Chivo', sans-serif;
 }
 
+.choco-txt {
+    color: #7B3F00;
+}
+
 //Background colour classes
 .bg-pink1 {
     background-color: $primary-colour;
@@ -56,15 +60,14 @@ h6 {
 /* label color */
 
 .input-field label {
-    color: #444;
+    color: white;
 }
 
 
 /* label focus color */
 
-.input-field input:focus+label,
-{
-    color: #444;
+.input-field input:focus+label {
+    color: white;
 }
 
 
@@ -95,5 +98,5 @@ h6 {
 /* icon prefix focus color */
 
 .input-field .prefix.active {
-    color: #444;
+    color: white;
 }

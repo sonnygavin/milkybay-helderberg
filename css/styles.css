@@ -6,6 +6,10 @@ p {
   font-family: 'Chivo', sans-serif;
 }
 
+.choco-txt {
+  color: #7B3F00;
+}
+
 .bg-pink1 {
   background-color: #EF4A81;
 }
@@ -46,12 +50,12 @@ h6 {
 
 /* label color */
 .input-field label {
-  color: #444;
+  color: white;
 }
 
 /* label focus color */
 .input-field input:focus + label {
-  color: #444;
+  color: white;
 }
 
 /* label underline focus color */
@@ -77,6 +81,6 @@ h6 {
 
 /* icon prefix focus color */
 .input-field .prefix.active {
-  color: #444;
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */
