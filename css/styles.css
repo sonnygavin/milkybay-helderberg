@@ -6,6 +6,16 @@ p {
   font-family: 'Chivo', sans-serif;
 }
 
+.sliding-carousel {
+  background-color: #EF4A81;
+}
+
+.brand-logo-img {
+  margin: 5px;
+  width: 150px;
+  padding: 20px 0 0;
+}
+
 .choco-txt {
   color: #7B3F00;
 }
