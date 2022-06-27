@@ -1,3 +1,19 @@
+.our-story {
+  margin-top: 0 !important;
+  padding: 0 !important;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+.sliding-carousel .row .col {
+  padding: 0 0 !important;
+  margin-bottom: 0px !important;
+}
+
+.sliding-carousel .row {
+  margin-bottom: 0px !important;
+}
+
 body {
   font-family: 'Chivo', sans-serif;
 }

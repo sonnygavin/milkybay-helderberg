@@ -3,6 +3,23 @@ $primary-colour: #EF4A81;
 $secondary-colour: #f2a1c2;
 $blue-colour: hwb(195 33% 9%);
 $headings-colour: chocolate;
+.our-story {
+    margin-top: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+// Remove padding from sliding carousel sides
+.sliding-carousel .row .col {
+    padding: 0 0 !important;
+    margin-bottom: 0px !important;
+}
+
+// Remove bottom margin from sliding carousel row
+.sliding-carousel .row {
+    margin-bottom: 0px !important;
+}
+
 body {
     font-family: 'Chivo', sans-serif;
 }
