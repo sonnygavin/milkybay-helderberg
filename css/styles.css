@@ -10,12 +10,23 @@ p {
   font-family: 'Fresh Lychee', sans-serif;
 }
 
+.maps-container {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
 .nav-wrapper {
   padding: 0 3%;
 }
 
 .sliding-carousel {
   background-color: #EF4A81;
+}
+
+.brand-logo {
+  font-size: 100%;
 }
 
 .brand-logo-img {
