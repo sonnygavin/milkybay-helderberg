@@ -47,8 +47,21 @@ p {
 
 .brand-logo-img {
   margin: 5px;
+  width: 130px;
+  padding: 20px 0 0;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.brand-logo-img:hover {
+  margin: 5px;
   width: 150px;
   padding: 20px 0 0;
+  width: 175px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .choco-txt {

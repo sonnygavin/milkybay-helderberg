@@ -53,8 +53,17 @@ p {
 
 .brand-logo-img {
     margin: 5px;
+    width: 130px;
+    padding: 20px 0 0;
+    transition: transform .2s; // Animation
+}
+
+.brand-logo-img:hover {
+    margin: 5px;
     width: 150px;
     padding: 20px 0 0;
+    width: 175px;
+    transform: scale(1.2); // 120% zoom
 }
 
 .choco-txt {
