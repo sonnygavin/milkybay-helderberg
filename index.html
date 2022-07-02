@@ -168,7 +168,25 @@
                     <img class="product-slider" src="images/milkybay-can1.png">
                 </div>
                 <div class="col m6 s12">
-                    <h3 class="floating-text vertical-center">Strawberry, Vanilla, Banana, Caramel, Peanut Butter, Standard, Fruity, Dessert, Milkshakes, Ice creams</h3>
+                    <!-- <img class="product-slider" src="images/product-wall.png"> -->
+                    <div class="word">
+                        <span>Strawberry</span>
+                        <span>Vanilla</span>
+                        <span>Banana</span>
+                        <span>Caramel</span>
+                    </div>
+                    <div class="word">
+                        <span>Peanut Butter</span>
+                        <span>Fruity</span>
+                        <span>Dessert</span>
+                        <span>Cheesecake</span>
+                    </div>
+                    <div class="word">
+                        <span>Hazelnut</span>
+                        <span>Coconut</span>
+                        <span>Turkish Delight</span>
+                    </div>
+                    <!-- <h3 class="floating-text">Strawberry, Vanilla, Banana, Caramel, Peanut Butter, Fruity, Dessert, Milkshakes, Ice creams, Cheesecake, Turkish Delight, Coffee, Hazelnut, Coconut</h3> -->
                     <!-- <a class="blue lighten-1 waves-effect waves-light btn" href="menu.html">VIEW MENU</a> -->
                 </div>
             </div>
@@ -198,40 +216,40 @@
                                     <div class="card">
                                         <div class="card-image waves-effect waves-block waves-light">
                                             <a href="product-1.html">
-                                                <img width="305" height="229" src="images/product-1.png" class="responsive-img wp-post-image" alt="" loading="lazy" title="Product 1" sizes="(max-width: 305px) 100vw, 305px"> <span class="card-title home">Standard Milkshakes</span>
+                                                <img width="305" height="229" src="images/product-1.png" class="responsive-img wp-post-image" alt="" loading="lazy" title="Product 1" sizes="(max-width: 305px) 100vw, 305px"> <span class="card-title home">Milkshakes</span>
                                             </a>
                                         </div>
-                                        <h4 class="choco-txt">Milkshakes</h4>
+                                        <p>Standard, Fruity, Dessert, Chocolate, Caramel, Cookie, Peanut Butter, Coffee, Unique</p>
                                     </div>
                                 </div>
                                 <div class="col s12 m6 l3">
                                     <div class="card">
                                         <div class="card-image waves-effect waves-block waves-light">
                                             <a href="product-1.html">
-                                                <img width="305" height="227" src="images/product-3.png" class="responsive-img wp-post-image" alt="" loading="lazy" title="Product 2" sizes="(max-width: 305px) 100vw, 305px"> <span class="card-title home">Kids Icecreams</span>
+                                                <img width="305" height="227" src="images/product-3.png" class="responsive-img wp-post-image" alt="" loading="lazy" title="Product 2" sizes="(max-width: 305px) 100vw, 305px"> <span class="card-title home">Kiddies</span>
                                             </a>
                                         </div>
-                                        <h4 class="choco-txt">Kiddies</h4>
+                                        <p>Double Thick Milkshakes, Themed Ice Creams, Kids Ice Creams</p>
                                     </div>
                                 </div>
                                 <div class="col s12 m6 l3">
                                     <div class="card">
                                         <div class="card-image waves-effect waves-block waves-light">
                                             <a href="product-1.html">
-                                                <img width="305" height="229" src="images/product-2.png" class="responsive-img wp-post-image" alt="Product 3" loading="lazy" title="Product 3" sizes="(max-width: 305px) 100vw, 305px"> <span class="card-title home">Vanilla Soft Serve Cones</span>
+                                                <img width="305" height="229" src="images/product-2.png" class="responsive-img wp-post-image" alt="Product 3" loading="lazy" title="Product 3" sizes="(max-width: 305px) 100vw, 305px"> <span class="card-title home">Ice Cream</span>
                                             </a>
                                         </div>
-                                        <h4 class="choco-txt">Ice Cream</h4>
+                                        <p>Vanilla Soft Serve Cones, Vanilla Soft Serve Cups</p>
                                     </div>
                                 </div>
                                 <div class="col s12 m6 l3">
                                     <div class="card">
                                         <div class="card-image waves-effect waves-block waves-light">
                                             <a href="#">
-                                                <img width="305" height="229" src="images/product-4.png" class="responsive-img wp-post-image" alt="Product 4" loading="lazy" title="Product 4" sizes="(max-width: 305px) 100vw, 305px"> <span class="card-title home">Americano</span>
+                                                <img width="305" height="229" src="images/product-4.png" class="responsive-img wp-post-image" alt="Product 4" loading="lazy" title="Product 4" sizes="(max-width: 305px) 100vw, 305px"> <span class="card-title home">Coffee</span>
                                             </a>
                                         </div>
-                                        <h4 class="choco-txt">Coffee</h4>
+                                        <p>Americano, Decaf Americano, Cappuccino, Hot Chocolate, Choco Mocha, Chai Latte</p>
                                     </div>
                                 </div>
                                 <!-- <div class="col s12 m6 l4">
@@ -321,6 +339,9 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <!-- J Query Import -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
     <script>
         // Initialize slider / carousel 
         const slider = document.querySelector('.slider');
@@ -334,9 +355,42 @@
         // Initialize sidenav
         const sideNav = document.querySelector('.sidenav');
         M.Sidenav.init(sideNav, {})
+
+        // Initialize Second Slider on homepage
+        // const slider2 = document.querySelector('.sliderers');
+        // M.slider2.init(sliding, {
+        // full_width: false,
+        // indicators: false,
+        // height: 450,
+        // transition: 800,
+        // interval: 5000,
+        // })
+
+        // $(document).ready(function() {
+        //     $('.sliderers').slider({
+        //         full_width: false,
+        //         interval: 5000,
+        //         transition: 800,
+        //     });
+        // });
+
+        // Initialize Text Wall Effect
+        const spans = document.querySelectorAll('.word span');
+
+        spans.forEach((span, idx) => {
+            span.addEventListener('click', (e) => {
+                e.target.classList.add('active');
+            });
+            span.addEventListener('animationend', (e) => {
+                e.target.classList.remove('active');
+            });
+
+            // Initial animation
+            setTimeout(() => {
+                span.classList.add('active');
+            }, 750 * (idx + 1))
+        });
     </script>
 </body>
-
-</html>
 
 </html>
