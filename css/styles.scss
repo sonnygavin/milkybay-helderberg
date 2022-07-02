@@ -35,8 +35,8 @@ $headings-colour: chocolate;
 .sign {
     // position: absolute;
     // display: flex;
-    // justify-content: center;
-    // align-items: center;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 50%;
     // background-image: radial-gradient( ellipse 50% 35% at 50% 50%, #6b1839, transparent);
@@ -334,4 +334,17 @@ h6 {
 
 .input-field .prefix.active {
     color: white;
+}
+
+// Vertically align elements to center
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.relative-container {
+    position: relative;
 }

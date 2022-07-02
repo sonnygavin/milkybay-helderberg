@@ -25,6 +25,12 @@
 }
 
 .sign {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 50%;
   height: 50%;
   letter-spacing: 2;
@@ -434,5 +440,17 @@ h6 {
 /* icon prefix focus color */
 .input-field .prefix.active {
   color: white;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.relative-container {
+  position: relative;
 }
 /*# sourceMappingURL=styles.css.map */
