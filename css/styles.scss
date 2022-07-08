@@ -15,6 +15,11 @@ $headings-colour: chocolate;
     margin-bottom: 0px !important;
 }
 
+// Treats paragraph
+.treats-paragraph {
+    font-weight: 500;
+}
+
 .whiten-text {
     color: white !important;
     font-weight: 600;
@@ -35,19 +40,19 @@ $headings-colour: chocolate;
 .sign {
     // position: absolute;
     // display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 50%;
+    // justify-content: center;
+    // align-items: center;
+    // width: 50%;
+    // height: 50%;
     // background-image: radial-gradient( ellipse 50% 35% at 50% 50%, #6b1839, transparent);
     // transform: translate(-50%, -50%);
     letter-spacing: 2;
-    left: 50%;
-    top: 50%;
-    font-family: 'Chivo', sans-serif;
-    text-transform: uppercase;
-    font-size: 45px;
-    color: #ffe6ff;
+    // left: 50%;
+    // top: 50%;
+    // font-family: 'Chivo', sans-serif;
+    // text-transform: uppercase;
+    // font-size: 45px;
+    // color: #ffe6ff;
     text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd, -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd, 0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
     animation: shine 2s forwards, flicker 3s infinite;
 }
@@ -208,41 +213,22 @@ p {
     left: 0;
 }
 
-.nav-wrapper {
-    padding: 0 3%;
-}
-
 .sliding-carousel {
     background-color: $blue-colour;
 }
 
-.brand-logo {
-    font-size: 100%;
-}
-
-.brand-logo-img {
-    margin: 5px;
-    width: 130px;
-    padding: 20px 0 0;
-    transition: transform .2s; // Animation
-}
-
-.brand-logo-img:hover {
-    margin: 5px;
-    width: 131px;
-    padding: 20px 0 0;
-    // Zoom logo on hover
-    transform: scale(1.2); // 120% zoom
-    //Rotate logo on hover
-    // -webkit-transform: rotate(-15deg);
-    // -moz-transform: rotate(-15deg);
-    // -ms-transform: rotate(-15deg);
-    // -o-transform: rotate(-15deg);
-    // transform: rotate(-15deg);
-}
-
+// Utility Classes
 .choco-txt {
     color: #7B3F00;
+}
+
+.responsive {
+    max-width: 170%;
+    height: auto;
+}
+
+.pink-txt {
+    color: $primary-colour;
 }
 
 //Background colour classes
@@ -262,9 +248,9 @@ p {
     background-color: $headings-colour;
 }
 
-// Product Slider Images
+// Main Slider on home page
 .product-slider {
-    width: 100%;
+    width: 70%;
 }
 
 // Melting Layer
@@ -278,7 +264,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'fresh_lycheeregular', Arial, sans-serif;
+    // font-family: 'fresh_lycheeregular', Arial, sans-serif;
+    font-family: 'Fresh Lychee', sans-serif;
 }
 
 h1,
@@ -477,5 +464,129 @@ h6 {
     }
     90% {
         transform: translateY(-48vh) scaleY(4);
+    }
+}
+
+// 3D slider on menu page
+.carousel {
+    height: 500px;
+    perspective: 500px;
+    transform: translateY(-100px);
+    .carousel-item {
+        cursor: grab;
+        width: 400px;
+        .carousel-item:active {
+            cursor: grabbing;
+        }
+        .carousel-item img {
+            width: 100%;
+        }
+        h3 {
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 2em;
+            font-weight: bold;
+            margin: -5px 0 0;
+            padding: 10px 5px;
+            text-align: center;
+        }
+    }
+}
+
+// Product Wall
+.product-wall {
+    padding: 17px;
+}
+
+.card-title {
+    font-weight: 800 !important;
+}
+
+//Footer
+footer {
+    font-size: 75%;
+    .footer-copyright {
+        text-align: center;
+    }
+}
+
+// Navigation bar
+.sidenav {
+    background-color: rgb(202, 145, 105);
+    li a {
+        color: white;
+        font-weight: 900;
+        font-size: 25px;
+    }
+}
+
+// .brand-logo {
+//     font-size: 170% !important;
+// }
+.brand-logo-img {
+    margin: 5px;
+    width: 130px;
+    padding: 20px 0 0;
+    transition: transform .2s; // Animation
+}
+
+.brand-logo-img:hover {
+    margin: 5px;
+    width: 131px;
+    padding: 20px 0 0;
+    // Zoom logo on hover
+    transform: scale(1.2); // 120% zoom
+    //Rotate logo on hover
+    // -webkit-transform: rotate(-15deg);
+    // -moz-transform: rotate(-15deg);
+    // -ms-transform: rotate(-15deg);
+    // -o-transform: rotate(-15deg);
+    // transform: rotate(-15deg);
+}
+
+.nav-wrapper {
+    padding: 0 3%;
+    //     height: 100px !important;
+}
+
+nav {
+    height: 75px;
+    // line-height: 75px;
+}
+
+nav i,
+nav [class^="mdi-"],
+nav [class*="mdi-"],
+nav i.material-icons {
+    height: 75px;
+    // line-height: 75px;
+}
+
+nav .button-collapse i {
+    height: 75px;
+    // line-height: 75px;
+}
+
+nav .brand-logo {
+    font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 601px) {
+    nav,
+    nav .nav-wrapper i,
+    nav a.sidenav-trigger,
+    nav a.sidenav-trigger i {
+        height: 75px;
+        line-height: 75px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .nav-wrapper {
+        padding: 0;
+        font-size: 75% !important;
+    }
+    nav .brand-logo {
+        font-size: 100% !important;
     }
 }
